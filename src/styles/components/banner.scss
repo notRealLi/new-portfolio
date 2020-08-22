@@ -1,0 +1,64 @@
+.banner {
+  margin-top: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 10rem;
+
+  .bio {
+    color: $black;
+    font-size: 2rem;
+
+    .wave {
+      display: inline-block;
+      animation: waving 2.5s infinite;
+      transform-origin: 80% 80%;
+    }
+  }
+
+  .about {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    a {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        right: 0;
+        top: 100%;
+        background: $gold;
+        transition: 0.3s ease;
+      }
+
+      &:hover {
+        &:after {
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      p {
+        margin: 0;
+        display: inline-block;
+        color: $gold;
+      }
+
+      .right-arrow {
+        color: $gold;
+        width: 30px;
+        height: 18px;
+        display: inline-block;
+      }
+    }
+  }
+}

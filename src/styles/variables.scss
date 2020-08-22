@@ -1,2 +1,28 @@
 $black: #100f0e;
 $gold: #ffab1b;
+$pink: #fbfaf8;
+
+@keyframes waving {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  0% {
+    transform: rotate(0);
+  }
+}

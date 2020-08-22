@@ -11,5 +11,8 @@ body {
   font-family: "Didact Gothic", sans-serif;
 }
 
-.App {
+.root {
+  background: $pink;
+  .App {
+  }
 }
