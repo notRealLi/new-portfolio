@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <p className="bio">
-        Hi there <div className="waving-hand">👋</div> My name is Li. I'm a full
+        Hi there <span className="waving-hand">👋</span> I'm Li. I'm a full
         stack developer. I'm also interested in AI and Game Development.
       </p>
 

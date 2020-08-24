@@ -2,9 +2,9 @@
   margin-top: 125px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 4rem 10rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 4rem $big-padding;
 
   .bio {
     color: $black;

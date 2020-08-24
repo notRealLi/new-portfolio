@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const Header = () => {
+  const [scrollTop, setScrollTop] = useState(window.scrollY);
+
+  useEffect(() => {
+    window.onscroll = () => {
+      window.onscroll = () => {
+        setScrollTop(window.scrollY);
+      };
+    };
+  }, []);
+
   return (
-    <header>
+    <header className={scrollTop > 50 ? "scrolling" : ""}>
       <div className="logo">YL</div>
       <div className="header-nav">
         <a href="https://github.com/notRealLi" target="_blank">
