@@ -26,6 +26,9 @@
   .project {
     display: flex;
     margin-bottom: 4rem;
+    -webkit-box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
+    -moz-box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
+    box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
 
     &:hover {
       img {
@@ -37,12 +40,18 @@
       &:hover {
         img {
           filter: blur(3px);
+          filter: grayscale(1);
         }
 
         .project-image {
           .demo {
             visibility: visible;
             opacity: 1;
+
+            a {
+              //text-shadow: 2px 2px $black;
+              color: $gold;
+            }
           }
         }
       }

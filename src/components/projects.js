@@ -10,7 +10,7 @@ const projects = [
       { text: "Code", url: "https://github.com/notRealLi/Mirror-Mirror" },
       { text: "Demo", url: "https://mirror-mirror.vercel.app/" },
     ],
-    image: "test1.jpeg",
+    image: "mirror.png",
   },
   {
     name: "Candy",
@@ -20,7 +20,7 @@ const projects = [
       { text: "Code", url: "https://github.com/notRealLi/gatsby_demo_heyday" },
       { text: "Demo", url: "https://notrealli.github.io/gatsby_demo_heyday/" },
     ],
-    image: "test1.jpeg",
+    image: "candy.png",
   },
   {
     name: "Ruby",
@@ -30,15 +30,14 @@ const projects = [
       { text: "Code", url: "https://github.com/notRealLi/swiftcore/" },
       { text: "Demo", url: "https://notrealli.github.io/swiftcore/" },
     ],
-    image: "test1.jpeg",
+    image: "ruby.png",
   },
   {
     name: "Javis",
     type: "Professional",
-    description:
-      "A web-based application that offers room booking services created with AdonisJs",
+    description: "A web-based room-booking application created with AdonisJs",
     links: [{ text: "Code", url: "https://github.com/CDH-Studio/Jarvis" }],
-    image: "test1.jpeg",
+    image: "jarvis.png",
   },
 ];
 
