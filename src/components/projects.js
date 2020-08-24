@@ -43,43 +43,48 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="projects">
-      <div className="title">
-        <span></span>
-        <h2>Featured Projects</h2>
-      </div>
-      {projects.map((project, idx) => (
-        <div
-          className={project.links.length > 1 ? "project demo" : "project"}
-          key={idx}
-        >
-          <div className="project-info">
-            <div className="project-title">
-              <h3>{project.name}</h3>
+    <div className="container">
+      <section className="projects">
+        <div className="title">
+          <span></span>
+          <h2>Featured Projects</h2>
+        </div>
+        {projects.map((project, idx) => (
+          <div
+            className={project.links.length > 1 ? "project demo" : "project"}
+            key={idx}
+          >
+            <div className="project-info">
+              <div className="project-title">
+                <h3>{project.name}</h3>
 
-              <a href={project.links[0]["url"]} target="_blank">
-                Github
-              </a>
-            </div>
-
-            <div className="project-description">
-              <h4>{project.description}</h4>
-            </div>
-          </div>
-
-          <div className="project-image">
-            <img src={require(`../assets/projects/${project.image}`)} alt="" />
-            {project.links.length > 1 && (
-              <div className="demo">
-                <a href={project.links[1]["url"]} target="_blank">
-                  <u>Demo Here</u>
+                <a href={project.links[0]["url"]} target="_blank">
+                  Github
                 </a>
               </div>
-            )}
+
+              <div className="project-description">
+                <h4>{project.description}</h4>
+              </div>
+            </div>
+
+            <div className="project-image">
+              <img
+                src={require(`../assets/projects/${project.image}`)}
+                alt=""
+              />
+              {project.links.length > 1 && (
+                <div className="demo">
+                  <a href={project.links[1]["url"]} target="_blank">
+                    <u>Demo Here</u>
+                  </a>
+                </div>
+              )}
+            </div>
           </div>
-        </div>
-      ))}
-    </section>
+        ))}
+      </section>
+    </div>
   );
 };
 

@@ -1,6 +1,5 @@
 .projects {
-  width: 75%;
-  margin: 125px auto 0 auto;
+  margin-top: 125px;
   display: flex;
   flex-direction: column;
 
@@ -27,6 +26,10 @@
     -webkit-box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
     -moz-box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
     box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
+
+    @include media("<=920px") {
+      flex-direction: column;
+    }
 
     &:hover {
       img {
@@ -63,6 +66,14 @@
       flex-direction: column;
       justify-content: center;
 
+      @include media("<=1185px") {
+        width: 40%;
+      }
+
+      @include media("<=920px") {
+        width: 100%;
+      }
+
       .project-title {
         margin-bottom: 18px;
 
@@ -97,6 +108,14 @@
       position: relative;
       width: 65%;
       overflow: hidden;
+
+      @include media("<=1185px") {
+        width: 60%;
+      }
+
+      @include media("<=920px") {
+        width: 100%;
+      }
 
       img {
         width: 100%;
