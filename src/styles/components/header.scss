@@ -1,38 +1,40 @@
-header {
+.header-full {
+  width: 100%;
   position: fixed;
   left: 0;
   top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 125px;
-  padding: 0 $big-padding;
+  z-index: 3;
   background: $white;
   opacity: 0.97;
-  z-index: 3;
-  transition: height 0.3s;
 
-  &.scrolling {
-    height: 60px;
-  }
-
-  .logo {
-    color: $gold;
-    font-size: 3rem;
-
-    img {
-    }
-  }
-
-  .header-nav {
-    position: relative;
-    width: 12rem;
+  header {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    height: 125px;
+    transition: height 0.3s;
 
-    i {
+    &.scrolling {
+      height: 60px;
+    }
+
+    .logo {
       color: $gold;
+      font-size: 3rem;
+
+      img {
+      }
+    }
+
+    .header-nav {
+      position: relative;
+      width: 12rem;
+      display: flex;
+      justify-content: space-around;
+
+      i {
+        color: $gold;
+      }
     }
   }
 }
