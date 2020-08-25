@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2f02e6e0.chunk.css",
-    "main.js": "/portfolio/static/js/main.bf4a14a8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.bf4a14a8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.f063b270.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f063b270.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8956d8ca.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8956d8ca.js.map",
-    "static/js/2.7b2a8d08.chunk.js": "/portfolio/static/js/2.7b2a8d08.chunk.js",
-    "static/js/2.7b2a8d08.chunk.js.map": "/portfolio/static/js/2.7b2a8d08.chunk.js.map",
+    "static/js/2.72f978d2.chunk.js": "/portfolio/static/js/2.72f978d2.chunk.js",
+    "static/js/2.72f978d2.chunk.js.map": "/portfolio/static/js/2.72f978d2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.dc8722eeec86e21dc19044d020e4e6cd.js": "/portfolio/precache-manifest.dc8722eeec86e21dc19044d020e4e6cd.js",
+    "precache-manifest.f84a2375b088eb56b064b4895f16abe0.js": "/portfolio/precache-manifest.f84a2375b088eb56b064b4895f16abe0.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.2f02e6e0.chunk.css.map": "/portfolio/static/css/main.2f02e6e0.chunk.css.map",
-    "static/js/2.7b2a8d08.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7b2a8d08.chunk.js.LICENSE.txt",
+    "static/js/2.72f978d2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.72f978d2.chunk.js.LICENSE.txt",
     "static/media/ant.jpg": "/portfolio/static/media/ant.95436f79.jpg",
     "static/media/candy.png": "/portfolio/static/media/candy.7b6f537b.png",
     "static/media/godot.png": "/portfolio/static/media/godot.670dd4ea.png",
@@ -20,14 +20,15 @@
     "static/media/mirror.png": "/portfolio/static/media/mirror.71a36894.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.31875154.png",
     "static/media/processing.jpg": "/portfolio/static/media/processing.19c3a317.jpg",
+    "static/media/ratios.png": "/portfolio/static/media/ratios.a7cd05ee.png",
     "static/media/raycasting.png": "/portfolio/static/media/raycasting.dbb66fd2.png",
     "static/media/right-arrow.a9df1a23.svg": "/portfolio/static/media/right-arrow.a9df1a23.svg",
     "static/media/ruby.png": "/portfolio/static/media/ruby.1457927a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8956d8ca.js",
-    "static/js/2.7b2a8d08.chunk.js",
+    "static/js/2.72f978d2.chunk.js",
     "static/css/main.2f02e6e0.chunk.css",
-    "static/js/main.bf4a14a8.chunk.js"
+    "static/js/main.f063b270.chunk.js"
   ]
 }
