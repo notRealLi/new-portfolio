@@ -24,7 +24,7 @@ const projects = [
     github: "https://github.com/notRealLi/old-portfolio",
   },
   {
-    name: "Games",
+    name: "Small Games",
     description: "Created with Processing",
     image: "processing.jpg",
     demo: "https://www.openprocessing.org/user/220169/#sketches",
