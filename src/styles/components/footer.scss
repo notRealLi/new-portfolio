@@ -21,12 +21,14 @@ footer {
 
     @include media("<=530px") {
       justify-content: center;
+      margin-bottom: 1rem;
     }
 
     @include media("<=350px") {
       flex-direction: column;
       order: -1;
       margin-top: 1rem;
+      margin-bottom: 0rem;
     }
 
     a {
