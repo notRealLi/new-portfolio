@@ -20,8 +20,8 @@ const projects = [
     name: "Portfolio Site",
     description: "Created with HTML/Sass",
     image: "portfolio.png",
-    demo: "https://notrealli.github.io/portfolio/",
-    github: "https://github.com/notRealLi/portfolio",
+    demo: "https://notrealli.github.io/old-portfolio/",
+    github: "https://github.com/notRealLi/old-portfolio",
   },
   {
     name: "Games",
