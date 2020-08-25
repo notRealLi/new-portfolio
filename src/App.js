@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
 import "./styles/App.scss";
 import gsap from "gsap";
-import Header from "./components/header";
-import Banner from "./components/banner";
-import Projects from "./components/projects";
-import Carousel from "./components/carousel";
-import Footer from "./components/footer";
 import Overlay from "./components/overlay";
+import Header from "./components/header";
+import HomePage from "./pages/homePage";
 
 function App() {
   useEffect(() => {
@@ -23,14 +20,13 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <>
       <Overlay />
       <Header />
-      <Banner />
-      <Projects />
-      <Carousel />
-      <Footer />
-    </div>
+      <div className="App">
+        <HomePage />
+      </div>
+    </>
   );
 }
 
