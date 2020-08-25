@@ -32,6 +32,18 @@ const projects = [
     ],
     image: "ruby.png",
   },
+
+  {
+    name: "Ratios",
+    type: "Personal",
+    description:
+      "A web-based application that displays stock information created with React and Express",
+    links: [
+      { text: "Code", url: "https://github.com/notRealLi/ratios" },
+      { text: "Demo", url: "https://rati0s.herokuapp.com/" },
+    ],
+    image: "ratios.png",
+  },
   {
     name: "Javis",
     type: "Professional",
