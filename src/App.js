@@ -4,6 +4,7 @@ import Header from "./components/header";
 import Banner from "./components/banner";
 import Projects from "./components/projects";
 import Carousel from "./components/carousel";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <Projects />
       <Carousel />
+      <Footer />
     </div>
   );
 }
