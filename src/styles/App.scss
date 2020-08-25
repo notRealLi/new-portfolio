@@ -1,9 +1,11 @@
 @import "./breakpoints.scss";
+@import "./flickity.min.css";
 @import "https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap";
 @import "./variables.scss";
 @import "./components/header.scss";
 @import "./components/banner.scss";
 @import "./components/projects.scss";
+@import "./components/carousel.scss";
 
 * {
   box-sizing: border-box;
@@ -12,13 +14,11 @@
 body {
   font-family: "Didact Gothic", sans-serif;
   color: $black;
+  background: $background;
 }
 
-.root {
-  background: $gray;
-
-  .App {
-  }
+.App {
+  background: $background;
 }
 
 .container {

@@ -3,6 +3,7 @@ import "./styles/App.scss";
 import Header from "./components/header";
 import Banner from "./components/banner";
 import Projects from "./components/projects";
+import Carousel from "./components/carousel";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Banner />
       <Projects />
+      <Carousel />
     </div>
   );
 }

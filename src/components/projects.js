@@ -5,7 +5,7 @@ const projects = [
     name: "Mirror Mirror",
     type: "Personal",
     description:
-      "A web-base tool created with Next.js that performs NLP analysis on underlined topics using data scraped from Twitter",
+      "A web app created with Next.js that performs NLP analysis on underlined topics",
     links: [
       { text: "Code", url: "https://github.com/notRealLi/Mirror-Mirror" },
       { text: "Demo", url: "https://mirror-mirror.vercel.app/" },
@@ -76,7 +76,7 @@ const Projects = () => {
               {project.links.length > 1 && (
                 <div className="demo">
                   <a href={project.links[1]["url"]} target="_blank">
-                    <u>Demo Here</u>
+                    Demo Here
                   </a>
                 </div>
               )}

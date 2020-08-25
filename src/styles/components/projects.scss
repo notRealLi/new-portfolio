@@ -23,9 +23,9 @@
   .project {
     display: flex;
     margin-bottom: 4rem;
-    -webkit-box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
-    -moz-box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
-    box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
+    // -webkit-box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
+    // -moz-box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
+    // box-shadow: -2px -2px 5px -1px rgba(16, 15, 14, 0.75);
 
     @include media("<=920px") {
       flex-direction: column;
@@ -98,8 +98,9 @@
 
       .project-description {
         h4 {
-          color: #fcfbf8;
+          color: $gray;
           font-size: 1rem;
+          font-weight: 300;
         }
       }
     }
