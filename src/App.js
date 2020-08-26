@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles/App.scss";
 import { Route } from "react-router-dom";
-import Overlay from "./components/overlay";
 import Header from "./components/header";
 import HomePage from "./pages/homePage";
 import AboutPage from "./pages/aboutPage";

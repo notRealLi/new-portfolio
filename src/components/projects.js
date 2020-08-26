@@ -70,7 +70,11 @@ const Projects = () => {
               <div className="project-title">
                 <h3>{project.name}</h3>
 
-                <a href={project.links[0]["url"]} target="_blank">
+                <a
+                  href={project.links[0]["url"]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Github
                 </a>
               </div>
@@ -87,7 +91,11 @@ const Projects = () => {
               />
               {project.links.length > 1 && (
                 <div className="demo">
-                  <a href={project.links[1]["url"]} target="_blank">
+                  <a
+                    href={project.links[1]["url"]}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Demo Here
                   </a>
                 </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as Mail } from "../assets/images/mail.svg";
 
 const Footer = () => {
   return (

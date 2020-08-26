@@ -41,7 +41,7 @@ const projects = [
 
 const Carousel = () => {
   useEffect(() => {
-    const carousel = new Flickity(".carousel", {
+    let carousel = new Flickity(".carousel", {
       cellAlign: "left",
       contain: true,
       wrapAround: true,
@@ -74,12 +74,20 @@ const Carousel = () => {
 
               <div className="project-links">
                 <div className="demo">
-                  <a href={project.demo} target="_blank">
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Demo
                   </a>
                 </div>
                 <div className="github">
-                  <a href={project.github} target="_blank">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Github
                   </a>
                 </div>

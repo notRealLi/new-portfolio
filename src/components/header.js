@@ -22,13 +22,25 @@ const Header = () => {
             </NavLink>
           </div>
           <div className="header-nav">
-            <a href="https://github.com/notRealLi" target="_blank">
+            <a
+              href="https://github.com/notRealLi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github fa-2x"></i>
             </a>
-            <a href="https://www.linkedin.com/in/notrealli" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/notrealli"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-linkedin-in fa-2x"></i>
             </a>
-            <a href="https://notrealli.github.io/resume" target="_blank">
+            <a
+              href="https://notrealli.github.io/resume"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fas fa-file-alt fa-2x"></i>
             </a>
           </div>

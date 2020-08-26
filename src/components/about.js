@@ -18,7 +18,11 @@ const About = () => {
         </p>
         <p>
           I came to Canada in 2014 to study Computer Science at{" "}
-          <a href="https://carleton.ca/" target="_blank">
+          <a
+            href="https://carleton.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Carleton University
           </a>{" "}
           and I got my Bachelor’s degree in 2019. During the 5 years, I was very
@@ -26,16 +30,28 @@ const About = () => {
           and talented people, some of whom became my partners in crime and
           we've had tons of great experiences together, including founding the
           first{" "}
-          <a href="https://www.facebook.com/carletonaisociety/" target="_blank">
+          <a
+            href="https://www.facebook.com/carletonaisociety/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Artificial Intelligence Club
           </a>{" "}
           at my university. I’ve also got to intern at a number of awesome
           organizations. My first Co-op term at{" "}
-          <a href="https://pythian.com/" target="_blank">
+          <a
+            href="https://pythian.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Pythian
           </a>{" "}
           really put my C language skills to test.{" "}
-          <a href="https://www.payments.ca/" target="_blank">
+          <a
+            href="https://www.payments.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Payments Canada
           </a>{" "}
           gifted me with two things, the chance to sharpen my SQL skills and a
@@ -43,12 +59,17 @@ const About = () => {
           <a
             href="https://www.ibm.com/ca-en/products/cognos-analytics"
             target="_blank"
+            rel="noopener noreferrer"
           >
             IBM Cognos Analytics
           </a>{" "}
           was where I fell in love with web development and it gave me a head
           start in the field. Finally at{" "}
-          <a href="https://cdhstudio.ca/" target="_blank">
+          <a
+            href="https://cdhstudio.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             CDH Studio
           </a>
           , I’ve had the pleasure to create a commercial web application from
