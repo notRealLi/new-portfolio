@@ -15,7 +15,9 @@ const Header = () => {
     <div className="header-full">
       <div className="container">
         <header className={scrollTop > 50 ? "scrolling" : ""}>
-          <div className="logo">YL</div>
+          <div className="logo">
+            <a href={process.env.PUBLIC_URL + "/"}>YL</a>
+          </div>
           <div className="header-nav">
             <a href="https://github.com/notRealLi" target="_blank">
               <i className="fab fa-github fa-2x"></i>

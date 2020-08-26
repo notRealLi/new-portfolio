@@ -1,0 +1,65 @@
+.about-me {
+  margin-top: 125px;
+  color: $black;
+
+  h1 {
+    font-size: 2.7rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+
+    a {
+      text-decoration: none;
+      color: $gold;
+    }
+  }
+
+  a.back-to-home {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content;
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      right: 0;
+      top: 100%;
+      background: $gold;
+      transition: 0.3s ease;
+    }
+
+    &:hover {
+      &:after {
+        left: 0;
+        width: 100%;
+      }
+    }
+
+    svg {
+      transform: rotate(180deg);
+    }
+
+    p {
+      margin: 0;
+      display: inline-block;
+      color: $gold;
+    }
+
+    .right-arrow {
+      color: $gold;
+      width: 30px;
+      height: 18px;
+      display: inline-block;
+    }
+  }
+}
