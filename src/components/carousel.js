@@ -41,7 +41,7 @@ const projects = [
 
 const Carousel = () => {
   useEffect(() => {
-    let carousel = new Flickity(".carousel", {
+    new Flickity(".carousel", {
       cellAlign: "left",
       contain: true,
       wrapAround: true,
