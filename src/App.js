@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./styles/App.scss";
-import gsap from "gsap";
 import { Route } from "react-router-dom";
 import Overlay from "./components/overlay";
 import Header from "./components/header";
@@ -13,22 +12,8 @@ const routes = [
 ];
 
 function App() {
-  useEffect(() => {
-    const tl = gsap.timeline();
-
-    tl.to(".overlay", 0.9, {
-      height: "90%",
-      ease: "none",
-    }).to(".overlay", 0.4, {
-      height: 0,
-      ease: "power2.out",
-      delay: -0.4,
-    });
-  }, []);
-
   return (
     <>
-      <Overlay />
       <Header />
       <div className="App">
         {routes.map(({ path, name, Component }) => (

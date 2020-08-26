@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactComponent as LeftArrow } from "../assets/images/left-arrow.svg";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
@@ -32,7 +33,7 @@ const About = () => {
           organizations. My first Co-op term at{" "}
           <a href="https://pythian.com/" target="_blank">
             Pythian
-          </a>
+          </a>{" "}
           really put my C language skills to test.{" "}
           <a href="https://www.payments.ca/" target="_blank">
             Payments Canada
@@ -59,10 +60,14 @@ const About = () => {
           When I’m not coding, you can usually find me playing games, trying out
           new restaurants or occasionally having a drink with friends.
         </p>
-        <a href={process.env.PUBLIC_URL + "/"} className="back-to-home">
+        <NavLink
+          to={process.env.PUBLIC_URL + "/"}
+          exact
+          className="back-to-home"
+        >
           <LeftArrow className="left-arrow" />
           <p>Back to home</p>
-        </a>
+        </NavLink>
       </section>
     </div>
   );

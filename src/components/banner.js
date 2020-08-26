@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactComponent as RightArrow } from "../assets/images/right-arrow.svg";
+import { NavLink } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -12,10 +13,10 @@ const Banner = () => {
         </p>
 
         <div className="about">
-          <a href={process.env.PUBLIC_URL + "/about"}>
+          <NavLink to={process.env.PUBLIC_URL + "/about"} exact>
             <p>More about me</p>
             <RightArrow className="right-arrow" />
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>

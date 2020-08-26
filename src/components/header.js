@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [scrollTop, setScrollTop] = useState(window.scrollY);
@@ -16,7 +17,9 @@ const Header = () => {
       <div className="container">
         <header className={scrollTop > 50 ? "scrolling" : ""}>
           <div className="logo">
-            <a href={process.env.PUBLIC_URL + "/"}>YL</a>
+            <NavLink to={process.env.PUBLIC_URL + "/"} exact>
+              YL
+            </NavLink>
           </div>
           <div className="header-nav">
             <a href="https://github.com/notRealLi" target="_blank">
