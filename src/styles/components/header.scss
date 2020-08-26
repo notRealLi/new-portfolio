@@ -11,11 +11,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 125px;
+    height: $tall;
     transition: height 0.3s;
+
+    @include media("<=475px") {
+      height: $short;
+    }
 
     &.scrolling {
       height: 60px;
+
+      @include media("<=475px") {
+        height: 50px;
+      }
     }
 
     .logo {

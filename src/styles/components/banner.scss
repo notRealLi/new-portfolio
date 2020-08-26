@@ -1,9 +1,13 @@
 .banner {
-  margin-top: 125px;
+  margin-top: $tall;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+
+  @include media("<=475px") {
+    margin-top: $short;
+  }
 
   .bio {
     color: $black;
