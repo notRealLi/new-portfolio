@@ -8,6 +8,10 @@ footer {
     flex-direction: column;
   }
 
+  @include media("<=425px") {
+    margin-top: 1rem;
+  }
+
   p {
     font-size: 1rem;
     color: $gray;
