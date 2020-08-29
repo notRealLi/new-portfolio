@@ -52,9 +52,15 @@
       }
 
       p {
+        font-size: 1.2rem;
         margin: 0;
         display: inline-block;
         color: $gold;
+        transition: font-size 0.2s;
+
+        @include media("<=425px") {
+          font-size: 1.1rem;
+        }
       }
 
       .right-arrow {

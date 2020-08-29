@@ -11,7 +11,7 @@ const HomePage = () => {
     const tl = gsap.timeline();
 
     tl.to(".overlay", 0.9, {
-      height: "90%",
+      height: "80%",
       ease: "none",
     }).to(".overlay", 0.4, {
       height: 0,
