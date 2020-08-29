@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container">
         <header className={scrollTop > 50 ? "scrolling" : ""}>
           <div className="logo">
-            <NavLink to={process.env.PUBLIC_URL + "/"} exact>
+            <NavLink to="/" exact>
               YL
             </NavLink>
           </div>

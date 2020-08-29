@@ -16,7 +16,7 @@ function App() {
       <Header />
       <div className="App">
         {routes.map(({ path, name, Component }) => (
-          <Route key={name} exact path={process.env.PUBLIC_URL + path}>
+          <Route key={name} exact path={path}>
             <Component />
           </Route>
         ))}

@@ -19,7 +19,7 @@ const Banner = () => {
         </p>
 
         <div className="about">
-          <NavLink to={process.env.PUBLIC_URL + "/about"} exact>
+          <NavLink to="/about" exact>
             <p>More about me</p>
             <RightArrow className="right-arrow" />
           </NavLink>

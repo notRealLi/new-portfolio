@@ -81,11 +81,7 @@ const About = () => {
           When I’m not coding, you can usually find me playing games, trying out
           new restaurants or occasionally having a drink with friends.
         </p>
-        <NavLink
-          to={process.env.PUBLIC_URL + "/"}
-          exact
-          className="back-to-home"
-        >
+        <NavLink to="/" exact className="back-to-home">
           <LeftArrow className="left-arrow" />
           <p>Back to home</p>
         </NavLink>
