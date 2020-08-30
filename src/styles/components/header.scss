@@ -38,13 +38,17 @@
 
     .header-nav {
       position: relative;
-      width: 12rem;
+      width: 10rem;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       transition: width 0.3s;
 
       @include media("<=475px") {
         width: 9rem;
+      }
+
+      @include media("<=350px") {
+        width: 8rem;
       }
 
       i {
