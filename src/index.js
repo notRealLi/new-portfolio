@@ -4,11 +4,14 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { HashRouter as Router } from "react-router-dom";
+import ScrollToTop from "react-router-scroll-top";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <ScrollToTop>
+        <App />
+      </ScrollToTop>
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
