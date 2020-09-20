@@ -9,12 +9,11 @@ const About = () => {
         <h1>About me</h1>
         <p>
           Hello there. My name is Yunwei Li but I go by Li. I’m a Full Spectrum
-          Developer with a focus on JavaScript-based frameworks and libraries. I
-          love learning about real world problems from different business fields
-          and building tools with various technologies to solve them. I’m also
-          very interested in Artificial Intelligence, Game Development and
-          Finance, and I try to learn as much as I can to stay on top of those
-          topics.
+          Developer with a focus on Web Development and Data Science. I love
+          learning about real world problems from different business fields and
+          building tools with various technologies to solve them. I’m also very
+          interested in Artificial Intelligence, Game Development and Finance,
+          and I try to learn as much as I can to stay on top of those topics.
         </p>
         <p>
           I came to Canada in 2014 to study Computer Science at{" "}
@@ -79,7 +78,7 @@ const About = () => {
         </p>
         <p>
           When I’m not coding, you can usually find me playing games, trying out
-          new restaurants or occasionally having a drink with friends.
+          new restaurants or occasionally having a few drinks with friends.
         </p>
         <NavLink to="/" exact className="back-to-home">
           <LeftArrow className="left-arrow" />
