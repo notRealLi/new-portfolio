@@ -43,6 +43,13 @@ const Header = () => {
             >
               <i className="fas fa-file-alt fa-2x"></i>
             </a>
+            <a
+              href="https://www.kaggle.com/notrealli/notebooks"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-kaggle fa-2x"></i>
+            </a>
           </div>
         </header>
       </div>
