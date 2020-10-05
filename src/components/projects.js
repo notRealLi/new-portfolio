@@ -68,12 +68,27 @@ const Projects = () => {
           >
             <div className="project-info">
               <div className="project-title">
-                <h3>{project.name}</h3>
+                <h3>
+                  {project.name}
+                  {project.links.length > 1 && (
+                    <span>
+                      <a
+                        href={project.links[1]["url"]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="external-link"
+                      >
+                        <i className="fas fa-external-link-alt"></i>
+                      </a>
+                    </span>
+                  )}
+                </h3>
 
                 <a
                   href={project.links[0]["url"]}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="github"
                 >
                   Github
                 </a>
@@ -89,17 +104,6 @@ const Projects = () => {
                 src={require(`../assets/projects/${project.image}`)}
                 alt=""
               />
-              {project.links.length > 1 && (
-                <div className="demo">
-                  <a
-                    href={project.links[1]["url"]}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Demo Here
-                  </a>
-                </div>
-              )}
             </div>
           </div>
         ))}
